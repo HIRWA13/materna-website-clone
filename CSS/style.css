@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'DN Bold';
+    src: url('/fonts/DINWebPro-Bold.woff');
+}
+body{
+    font-family: 'DN bold', sans-serif;
+}
