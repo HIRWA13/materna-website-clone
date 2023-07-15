@@ -2,6 +2,16 @@
     font-family: 'DN Bold';
     src: url('/fonts/DINWebPro-Bold.woff');
 }
+@font-face {
+    font-family: 'DN regular';
+    src: url('/fonts/DINWebPro-Light.woff');
+}
 body{
-    font-family: 'DN bold', sans-serif;
+    font-family: 'DN regular', sans-serif;
+}
+.fa-bars {
+    height: 20px;
+}
+#cta {
+    background-image: url('/media/images/buehne_startseite.svg');
 }
