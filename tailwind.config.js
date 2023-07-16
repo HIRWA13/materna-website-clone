@@ -2,6 +2,10 @@
 module.exports = {
   content: ["*.html"],
   theme: {
+    screens: {
+      "sm": "400px",
+      "md": "640px"
+    },
     extend: {
       colors: {
         "primary-red": "#C30A17",

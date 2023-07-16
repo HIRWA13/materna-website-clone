@@ -11,11 +11,11 @@
 </head>
 <body class="">
     <header class="bg-primary-red text-light-gray flex h-10 px-5 gap-x-2">
-        <div class="h-full hover:bg-dark-red hover:cursor-pointer flex items-center justify-center">
+        <div class="h-full hover:bg-dark-red hover:cursor-pointer flex items-center justify-center px-2">
             <i class="fa fa-bars capitalize px-2 mt-1"></i><span class="capitalize"> menu</span>
         </div>
-        <div class="h-full hover:bg-dark-red hover:cursor-pointer flex items-center">
-            <i class=" transform capitalize"><img class="h-3" src="./media/icons & svgs/loupe-w.svg" alt=""></i><span class="capitalize ml-2"> search</span> 
+        <div class="h-full hover:bg-dark-red hover:cursor-pointer flex items-center px-2">
+            <i class=" transform capitalize text-sm"><img class="h-3" src="./media/icons & svgs/loupe-w.svg" alt=""></i><span class="capitalize ml-2">search</span> 
         </div>
     </header>
     <button class="h-7 w-8 fixed right-3 bottom-8 z-50"><img src="./media/icons & svgs/Up-bg-red.svg" alt=""></button>
@@ -23,88 +23,90 @@
         <div class="logo">
             <img src="./media/icons & svgs/logo.svg" alt="logo">
         </div>
-        <div class="content relative">
-            <div class="border-[7px] border-primary-red text-light-gray w-[368px] p-5">
+        <div class="content relative sm:flex gap-2">
+            <div class="border-[7px] border-primary-red text-light-gray max-w-xs p-5">
                 <h1 class="uppercase text-2xl pt-4">we are digitizing your world.</h1>
                 <p class="py-5">As a key globally active IT service provider, we advise and assist you in all aspects of digitization and provide tailor-made technologies for agile, flexible and secure IT.<i class="w-[40px] h-4 bg-light-gray ml-3">....</i></p>
             </div>
-            <div class="w-full py-5 space-y-6">
-                <div class="bg-primary-red text-light-gray p-5 w-full mt-4 capitalize flex items-center">portofolio<span class="ml-2"><img class="h-5" src="./media/icons & svgs/next-upright.svg" alt=""></span></div>
-                <div class="bg-primary-red text-light-gray p-5 w-full mt-4 capitalize flex items-center">about us<span class="ml-2"><img class="h-5" src="./media/icons & svgs/next-upright.svg" alt=""></span></div>
-                <div class="bg-primary-red text-light-gray p-5 w-full mt-4 capitalize flex items-center">careers<span class="ml-2"><img class="h-5" src="./media/icons & svgs/Next page-red-bg.svg" alt=""></span></div>
+            <div class="w-full py-5 space-y-6 sm:w-[300px]">
+                <div class="bg-primary-red text-light-gray p-5 w-full mt-4 capitalize flex items-center">portofolio<span class="ml-1 mt-1"><img class="h-5" src="./media/icons & svgs/next-upright.svg" alt=""></span></div>
+                <div class="bg-primary-red text-light-gray p-5 w-full mt-4 capitalize flex items-center">about us<span class="ml-1 mt-1"><img class="h-5" src="./media/icons & svgs/next-upright.svg" alt=""></span></div>
+                <div class="bg-primary-red text-light-gray p-5 w-full mt-4 capitalize flex items-center">careers<span class="ml-1 mt-1"><img class="h-5" src="./media/icons & svgs/Next page-red-bg.svg" alt=""></span></div>
             </div>
         </div>
     </section>
-    <section class="py-5 mt-[150px]">
+    <section class="py-5 mt-[150px] sm:-mt-3">
         <h1 class="text-center text-2xl text-dark-gray py-4">Learn more about our portfolio</h1>
-        <div class="space-y-3">
-            <div  class="space-y-1 relative">
-                <img class="p-4" src="./media/images/AS-388785133-Home-Portfolio-Cloud.png" alt="imge">
-                <div class="p-4 space-y-3">
+        <div class="w-[90%] m-auto sm:flex flex-wrap justify-center">
+            <div  class="space-y-1 relative bg-white w-[320px]">
+            <img class="p-4" src="./media/images/AS-388785133-Home-Portfolio-Cloud.png" alt="imge">
+                <div class="px-5 space-y-3 w-full">
                    <h1 class="text-primary-red text-left font-semibold hover:cursor-pointer hover:underline hover:underline-offset-1 hover:text-dark-gray">We accompany your Journey2Cloud</h1>
                     <p>We analyze your application landscapes and transfer them step by step into a sustainable model.</p>
-                    <button class="bg-primary-red text-white flex justify-center py-3 px-9 w-full text-xl capitalize">more<img class="h-6" src="./media/icons & svgs/next-upright.svg" alt=""></button>
+                    <button class="bg-primary-red text-white flex justify-center py-3 px-9 w-full text-xl capitalize">more<img class="h-6 mt-1" src="./media/icons & svgs/next-upright.svg" alt=""></button>
                 </div>
                 <button class="bg-light-gray p-1 px-6 absolute top-5 left-6 capitalize">cloud</button>
             </div>
-            <div  class="space-y-1 relative">
-                <img class="p-4" src="./media/images/E-Branche-Auto-Referenz-Scrum.png" alt="imge">
-                <div class="p-4 space-y-3">
-                   <h1 class="text-primary-red text-left font-semibold hover:cursor-pointer hover:underline hover:underline-offset-1 hover:text-dark-gray">Cyber Security</h1>
-                    <p>Our cyber services help you before, during and after any damage might occur by providing secure applications development, protection for your IT and information security.</p>
-                    <button class="bg-primary-red text-white flex justify-center py-3 px-9 w-full text-xl capitalize">more<img class="h-6" src="./media/icons & svgs/next-upright.svg" alt=""></button>
-                </div>
-                <button class="bg-light-gray p-1 px-6 absolute top-5 left-6 capitalize">cyber security check</button>
-            </div>
-            <div  class="space-y-1 relative">
+            <div  class="space-y-1 relative w-[320px]">
                 <img class="p-4" src="./media/images/AS-162962912-Cyber-Security.png" alt="imge">
                 <div class="p-4 space-y-3">
                    <h1 class="text-primary-red text-left font-semibold hover:cursor-pointer hover:underline hover:underline-offset-1 hover:text-dark-gray">Enterprise Service Management</h1>
                     <p>Benefit from the market leader for service management. More than 1,000 customers across all sectors.</p>
-                    <button class="bg-primary-red text-white flex justify-center py-3 px-9 w-full text-xl capitalize">more<img class="h-6" src="./media/icons & svgs/next-upright.svg" alt=""></button>
+                    <button class="bg-primary-red text-white flex justify-center py-3 px-9 w-full text-xl capitalize">more<img class="h-6 mt-1" src="./media/icons & svgs/next-upright.svg" alt=""></button>
                 </div>
                 <button class="bg-light-gray p-1 px-6 absolute top-5 left-6 capitalize">processes</button>
             </div>
-            <div  class="space-y-1 relative">
+            <div  class="space-y-1 relative w-[320px]">
+                <img class="p-4" src="./media/images/E-Branche-Auto-Referenz-Scrum.png" alt="imge">
+                <div class="p-4 space-y-1">
+                   <h1 class="text-primary-red text-left font-semibold hover:cursor-pointer hover:underline hover:underline-offset-1 hover:text-dark-gray">Cyber Security</h1>
+                    <p>Our cyber services help you before, during and after any damage might occur by providing secure applications development, protection for your IT and information security.</p>
+                    <button class="bg-primary-red text-white flex justify-center py-3 px-9 w-full text-xl capitalize">more<img class="h-6 mt-1" src="./media/icons & svgs/next-upright.svg" alt=""></button>
+                </div>
+                <button class="bg-light-gray p-1 px-6 absolute top-5 left-6 capitalize">cyber security check</button>
+            </div>
+           
+            <div  class="space-y-1 relative w-[320px]">
                 <img class="p-4" src="./media/images/AS-279424236-Home-Portfolio-ESM.png" alt="imge">
                 <div class="p-4 space-y-3">
                    <h1 class="text-primary-red text-left font-semibold hover:cursor-pointer hover:underline hover:underline-offset-1 hover:text-dark-gray">IoT-based services for manufacturing</h1>
                     <p>Materna’s technology expertise helps companies to develop their business processes further enabling them to enter new markets.</p>
-                    <button class="bg-primary-red text-white flex justify-center py-3 px-9 w-full text-xl capitalize">more<img class="h-6" src="./media/icons & svgs/next-upright.svg" alt=""></button>
+                    <button class="bg-primary-red text-white flex justify-center py-3 px-9 w-full text-xl capitalize">more<img class="h-6 mt-1" src="./media/icons & svgs/next-upright.svg" alt=""></button>
                 </div>
                 <button class="bg-light-gray p-1 px-6 absolute top-5 left-6 capitalize">IoT</button>
             </div>
         </div>
     </section>
-    <section class="p-6 bg-light-gray">
+    <!-- gray - grid section -->
+    <section class="p-6 bg-light-gray sm:pt-10">
         <div>
-            <div class="bg-white">
-                <img src="./media/images/E-Portfolio-Lsg-ESM-ISG-Cover.png" alt="">
-                <div class="p-4 space-y-4">
+            <div class="bg-white grid md:grid-cols-2 sm:w-[80%] sm:m-auto">
+                <img class="h-full" src="./media/images/E-Portfolio-Lsg-ESM-ISG-Cover.png" alt="">
+                <div class="p-4 space-y-4 flex flex-col justify-around">
                 <h1 class="text-primary-red text-lg hover:cursor-pointer hover:underline hover:underline-offset-1 hover:text-dark-gray">Top position in ESM Report</h1>
                 <p>Enterprise Service Management is one of the cornerstones of any company's digitization strategy. In the new ISG Provider Lens™ Report - Enterprise Service Management 2021 - Germany, Materna comes out on top in three quadrants.</p>
 
-                <button class="py-1 px-9 border-2 border-primary-red flex items-center justify-center text-primary-red capitalize mt-2 w-full rounded-sm">read more <img src="./media/icons & svgs/Next-page-transparent.svg" alt=""></button>
+                <button class="py-1 px-9 border-2 border-primary-red flex items-center justify-center text-primary-red capitalize mt-2 w-full rounded-sm">read more <img class="mt-1 h-6" src="./media/icons & svgs/Next-page-transparent.svg" alt=""></button>
             </div>
             </div>
             <h1 class="text-xl text-center py-16 capitalize font-bold">materna is behind it</h1>
-            <div class="bg-white">
-                <img src="./media/images/M-Flughafen-Denver-SBD.png" alt="">
-                <div class="p-4 space-y-4">
+            <div class="bg-white grid md:grid-cols-2 w-[80%] mx-auto">
+                <img class="h-full" src="./media/images/M-Flughafen-Denver-SBD.png" alt="">
+                <div class="p-4 space-y-4 flex flex-col justify-around">
                 <h1 class="text-primary-red text-lg">Top position in ESM Report</h1>
                 <p>Enterprise Service Management is one of the cornerstones of any company's digitization strategy. In the new ISG Provider Lens™ Report - Enterprise Service Management 2021 - Germany, Materna comes out on top in three quadrants.</p>
 
-                <button class="py-2 px-9 text-white bg-primary-red flex items-center justify-center  capitalize mt-2 w-full rounded-sm">more about the self bag project<img class="h-5 ml-2" src="./media/icons & svgs/next-upright.svg" alt=""></button>
+                <button class="py-2 px-9 text-white bg-primary-red flex items-center justify-center  capitalize mt-2 w-full rounded-sm text-sm">more about the self bag project<img class="h-5 ml-1 mt-1" src="./media/icons & svgs/next-upright.svg" alt=""></button>
             </div>
             </div>
             <div class="flex gap-x-3 justify-center mt-10">
-                <div class="h-2 w-2 bg-primary-red"></div>
-                <div class="h-2 w-2 bg-primary-red"></div>
-                <div class="h-2 w-2 bg-primary-red"></div>
-                <div class="h-2 w-2 bg-primary-red"></div>
-                <div class="h-2 w-2 bg-primary-red"></div>
-                <div class="h-2 w-2 bg-primary-red"></div>
-                <div class="h-2 w-2 bg-primary-red"></div>
+                <div class="h-2 w-2 bg-primary-red hover:bg-dark-gray cursor-pointer"></div>
+                <div class="h-2 w-2 bg-primary-red hover:bg-dark-gray cursor-pointer"></div>
+                <div class="h-2 w-2 bg-primary-red hover:bg-dark-gray cursor-pointer"></div>
+                <div class="h-2 w-2 bg-primary-red hover:bg-dark-gray cursor-pointer"></div>
+                <div class="h-2 w-2 bg-primary-red hover:bg-dark-gray cursor-pointer"></div>
+                <div class="h-2 w-2 bg-primary-red hover:bg-dark-gray cursor-pointer"></div>
+                <div class="h-2 w-2 bg-primary-red hover:bg-dark-gray cursor-pointer"></div>
             </div>
         </div>
     </section>
@@ -112,21 +114,22 @@
     <div class="px-2 py-4 bg-light-gray flex items-center gap-x-2">
         <p class="text-primary-red">recommend</p><i class="fa fa-share-alt text-primary-red font-light text-2xl" aria-hidden="true"></i>
     </div>
-    <footer class="bg-dark-gray relative">
-        <div class="text-white absolute bottom-7 left-4">&copy;Materna 2023</div>
+    <footer class="bg-dark-gray">
         <div class="bg-dark-gray py-8 pr-4">
-            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between">portofolio<img class="transform rotate-180 h-6 mt-1 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
-            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between">about us<img class="transform rotate-180 h-6 mt-4 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
-            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between">customers<img class="transform rotate-180 h-6 mt-4 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
-            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between">careers<img class="transform rotate-180 h-6 mt-4 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
-            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between">service<img class="transform rotate-180 h-6 mt-4 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
+            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between hover:underline hover:underline-offset-1 hover:cursor-pointer">portofolio<img class="transform rotate-180 h-6 mt-1 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
+            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between hover:underline hover:underline-offset-1 hover:cursor-pointer">about us<img class="transform rotate-180 h-6 mt-4 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
+            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between hover:underline hover:underline-offset-1 hover:cursor-pointer">customers<img class="transform rotate-180 h-6 mt-4 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
+            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between hover:underline hover:underline-offset-1 hover:cursor-pointer">careers<img class="transform rotate-180 h-6 mt-4 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
+            <div class="capitalize text-white font-bold ml-3 flex items-center justify-between hover:underline hover:underline-offset-1 hover:cursor-pointer">service<img class="transform rotate-180 h-6 mt-4 gap-2" src="./media/icons & svgs/Prev-page-bg-dark.svg" alt=""></div>
         </div>
-        <div class="flex flex-wrap">
+        <div class="flex flex-wrap relative justify-end">
+            <div class="text-white absolute top-6 left-3 font-semibold hover:cursor-pointer">&copy;Materna 2023</div>
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
+            
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
@@ -2163,49 +2166,7 @@
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
             <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
-            <img src="./media/icons & svgs/hatch-b.svg" alt="">
+            
         </div>
     </footer>
 </body>
