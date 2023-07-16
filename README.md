@@ -31,4 +31,4 @@ you can find the links to the original website and the clone below:
 </ul>
 
 ## Author:
-[Junior Hirwa](www.github.com/HIRWA13)
+[Junior Hirwa](https://github.com/HIRWA13)
