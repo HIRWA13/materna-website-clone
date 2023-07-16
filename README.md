@@ -28,3 +28,6 @@ you can find the links to the original website and the clone below:
  Materna original: [original site](https://www.materna.com/EN/Home/home_node.html);
  Materna clone: [Clone site](https://materna-website-clone-jr.netlify.app/);
 </ul>
+
+## Author:
+[Junior Hirwa](www.github.com/HIRWA13)
