@@ -23,6 +23,8 @@ I used the following approaches:
 
 ## links:
 you can find the links to the original website and the clone below:
+<ul>
 
-Materna original: [original site](https://www.materna.com/EN/Home/home_node.html)
-Materna clone: [Clone site](https://materna-website-clone-jr.netlify.app/);
+ Materna original: [original site](https://www.materna.com/EN/Home/home_node.html);
+ Materna clone: [Clone site](https://materna-website-clone-jr.netlify.app/);
+</ul>
